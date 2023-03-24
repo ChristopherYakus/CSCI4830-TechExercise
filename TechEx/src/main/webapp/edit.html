@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<style>
+			header 
+			{
+			    background-color:black;
+			    color:white;
+			    text-align:center;
+			    padding:5px;	 
+			}
+			nav 
+			{
+			    line-height:30px;
+			    background-color:#eeeeee;
+			    height:300px;
+			    width:100px;
+			    float:left;
+			    padding:5px;	      
+			}
+			section 
+			{
+			    width:350px;
+			    float:left;
+			    padding:10px;	 	 
+			}
+			footer 
+			{
+			    background-color:black;
+			    color:white;
+			    clear:both;
+			    text-align:center;
+			    padding:5px;	 	 
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<h1> Change Quantity or MSRP</h1>
+		</header>
+		
+		<nav>
+			<a href="/TechEx/index.html">Home</a> <br>
+			<a href="/TechEx/search.html">Search</a> <br>
+			<a href="/TechEx/insert.html">Add Item</a> <br>
+		</nav>
+		
+		<section>
+			<h1>User Input</h1>
+			
+			<form action="Edit" method="POST">
+			
+				SKU of Item: <input type="text" name="sku"> <br />
+				New Quantity: <input type="text" name="quant"> <br />
+				AND / OR <br />
+				New MSRP: <input type="text" name="msrp"> <br />
+				
+				<input type="submit" value="Edit" />
+			</form>
+		
+		</section>
+		
+		<footer>
+			Copyright: Me
+		</footer>
+	</body>
+</html>
